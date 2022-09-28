@@ -8,6 +8,7 @@ def __show_menu():
     @brief Prints all the options that
     the user can choose.
     '''
+    print("\nOPTIONS:")
     print("1. List all rooms")
     print("2. List empty rooms")
     print("3. List full rooms")
@@ -28,7 +29,7 @@ def __execute_option(option: str, data: Hotel) -> bool:
     @return True if option == 'x', else return False
     '''
     if option == "1":
-        data.print_all_rooms()
+        data.print_rooms()
         return False
     elif option == "2":
         data.print_empty_rooms()
@@ -37,12 +38,15 @@ def __execute_option(option: str, data: Hotel) -> bool:
         data.print_full_rooms()
         return False
     elif option == "4":
-        data.check_in()
+        user_input = input("Enter room id: ")
+        data.check_in(user_input)
         return False
     elif option == "5":
-        data.check_out()
+        user_input = input("Enter room id: ")
+        data.check_out(user_input)
         return False
     elif option == "x":
+        data.save_hotel_data()
         return True
     else:
         print("option not valid")

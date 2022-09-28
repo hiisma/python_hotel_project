@@ -1,5 +1,5 @@
 id,type,capacity,is empty,description
-00,basic,4,True,Foo description with nothing real.
+00,basic,4,False,Foo description with nothing real.
 01,premium,2,False,This is not a room.
 02,executive,2,True,What are you searching?
 03,basic,6,True,Five days and five nights.
