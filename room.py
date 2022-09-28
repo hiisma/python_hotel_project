@@ -1,4 +1,8 @@
 class Room:
+    '''
+    @author Ismail A. O.
+    @brief This class is a container of the room information.
+    '''
     room_id: str = None
     room_type: str = None
     capacity: int = None
@@ -32,9 +36,11 @@ class Room:
 
     # SETTERS
     def set_empty(self):
+        '''@brief empty = True'''
         self.is_empty = True
 
     def set_full(self):
+        '''@brief empty = False'''
         self.is_empty = False
 
     def set_capacity(self, new_capacity: int):
