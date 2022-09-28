@@ -3,12 +3,15 @@ class Room:
     @author Ismail A. O.
     @brief This class is a container of the room information.
     '''
-    room_id: str = None
-    room_type: str = None
-    capacity: int = None
-    is_empty: bool = None
-    description: str = None
 
+    # ATTRIBUTES
+    __room_id: str = None
+    __room_type: str = None
+    __capacity: int = None
+    __is_empty: bool = None
+    __description: str = None
+
+    # CONSTRUCTORS
     def __init__(self,room_id: str, room_type: str, capacity: int, isEmpty: bool, description: str):
         '''
         @brief constructor with all parameters of the room.
@@ -24,7 +27,7 @@ class Room:
         self.is_empty = isEmpty
         self.description = description
 
-    def __init(self):
+    def __init__(self):
         '''
         @brief default constructor.
         '''

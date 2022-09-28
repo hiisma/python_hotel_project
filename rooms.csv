@@ -1,0 +1,31 @@
+id,type,capacity,is empty,description
+00,basic,4,False,Foo description with nothing real.
+01,premium,2,False,This is not a room.
+02,executive,2,True,What are you searching?
+03,basic,6,True,Five days and five nights.
+04,basic,6,True,Basic is just a name.
+05,basic,4,True,Maybe basic but beautifull views.
+06,basic,4,True,Ideal for a budget family trip.
+07,premium,4,True,Including some luxuries.
+08,premium,4,False,Views at the mountain.
+09,premium,6,False,Nothing to say.
+10,executive,2,False,Just random text.
+11,executive,4,False,Very expensive for you.
+12,basic,2,False,Another basic room.
+13,basic,2,False,This one is not different.
+14,basic,4,False,It has good reviews.
+15,basic,6,False,50 days.
+16,basic,4,True,More random text.
+17,basic,4,True,Still basic bur more expensive.
+18,executive,2,True,More executive rooms.
+19,executive,2,True,It looks like those do not sell good.
+20,executive,2,True,Interesting but i'ts empty for a reason.
+21,executive,2,True,Another empty room.
+22,premium,4,True,This is a good choice.
+23,premium,2,False,This one it is not.
+24,basic,4,False,Why all basic rooms are taken?
+25,basic,4,False,We don't know.
+26,basic,4,True,Well ther is one. But not for long...
+27,premium,2,True,Empty or not we don't care.
+28,premium,2,True,Interting prices.
+29,premium,4,False,Not even trying to write a good description.

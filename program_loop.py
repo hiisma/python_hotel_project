@@ -1,6 +1,6 @@
 __all__ = ['app']
 
-def _show_menu():
+def __show_menu():
     '''
     @brief Prints all the options that
     the user can choose.
@@ -12,7 +12,7 @@ def _show_menu():
     print("5. Check Out")
     print("x. Exit program")
 
-def _execute_option(option: str) -> bool:
+def __execute_option(option: str) -> bool:
     '''
     @brief executes one of the diferent options
     depending of the input.
@@ -51,6 +51,6 @@ def app():
     '''
     should_exit = False
     while(not should_exit):
-        _show_menu()
+        __show_menu()
         option = input("Input option: ")
-        should_exit = _execute_option(option)
+        should_exit = __execute_option(option)
