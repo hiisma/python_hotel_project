@@ -21,49 +21,49 @@ class Room:
         @param isEmpty: indicates if the room is ocupied.
         @param description: other information of the room.
         '''
-        self.room_id = room_id
-        self.room_type = room_type
-        self.capacity =  capacity
-        self.is_empty = isEmpty
-        self.description = description
+        self.__room_id = room_id
+        self.__room_type = room_type
+        self.__capacity =  capacity
+        self.__is_empty = isEmpty
+        self.__description = description
 
     def __init__(self):
         '''
         @brief default constructor.
         '''
-        self.room_id = ""
-        self.room_type = ""
-        self.capacity = 0
-        self.is_empty = True
-        self.description = ""
+        self.__room_id = ""
+        self.__room_type = ""
+        self.__capacity = 0
+        self.__is_empty = True
+        self.__description = ""
 
     # SETTERS
     def set_empty(self):
         '''@brief empty = True'''
-        self.is_empty = True
+        self.__is_empty = True
 
     def set_full(self):
         '''@brief empty = False'''
-        self.is_empty = False
+        self.__is_empty = False
 
     def set_capacity(self, new_capacity: int):
-        self.capacity = new_capacity
+        self.__capacity = new_capacity
     
     def set_description(self, new_description: str):
-        self.description = new_description
+        self.__description = new_description
 
     # GETTERS
     def get_is_empty(self) -> bool:
-        return self.is_empty
+        return self.__is_empty
     
     def get_capacity(self) -> int:
-        return self.capacity
+        return self.__capacity
 
     def get_room_id(self) -> str:
-        return self.room_id
+        return self.__room_id
 
     def get_room_type(self) -> str:
-        return self.room_type
+        return self.__room_type
     
     def get_description(self) -> str:
-        return self.description
+        return self.__description
